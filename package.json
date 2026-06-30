@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "postinstall": "npm install --prefix civentra",
+    "dev": "npm run dev --prefix civentra",
+    "build": "npm run build --prefix civentra",
+    "preview": "npm run preview --prefix civentra"
+  },
+  "dependencies": {
+    "firebase": "^12.15.0"
+  }
+}
